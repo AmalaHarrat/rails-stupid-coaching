@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+
+h1{
+margin: 5px;
+padding: 5px;
+}
+
+.question_link a {
+margin: 10px;
+text-decoration: none;
+color: grey;
+}
+
+.user_question, .coach_answer {
+  margin: 5px;
+  padding-left: 10px;
+  border-left: solid #DDDDDD;
+  border-width: thick;
+  color: #555A65;
+}
+
+.coach_answer {
+background-color: #FFFFE1;
+width: 300px;
+}
